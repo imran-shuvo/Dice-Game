@@ -37,10 +37,10 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
         dice1 = Math.floor(Math.random()*6)+1;
         dice2 = Math.floor(Math.random()*6)+1;
         document.querySelector('.dice-1').style.display = 'block';
-        document.querySelector('.dice-1').src = 'dice-'+dice1+'.png'; 
+        document.querySelector('.dice-1').src = 'img/' +'dice-'+dice1+'.png'; 
 
         document.querySelector('.dice-2').style.display = 'block';
-        document.querySelector('.dice-2').src = 'dice-'+dice2+'.png'; 
+        document.querySelector('.dice-2').src = 'img/'+'dice-'+dice2+'.png'; 
        
         if(activePlayer===0){
             document.querySelector('.player-0-panel').classList.add('active');
